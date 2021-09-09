@@ -1,0 +1,134 @@
+body{
+    margin:0;
+    padding:0;
+    color:#eee;
+    font-family:"lato" ,sans-serif;
+}
+
+.portfolio-container{
+    display:flex;
+    flex-direction:row;
+    margin:0 10%;
+}
+
+.aside-container{
+    width:30%;
+    height:100vh;
+    background-color:#155e91;
+    color: #ffffff;
+
+}
+
+.section-container{
+    width:70%;
+    height:100vh;
+    background-color: #ffffff;
+    color:black;
+}
+
+.side-container{
+    display:flex;
+    justify-content:center;
+    margin:10px 0;
+    flex-direction:column;
+}
+
+.image-holder{
+    height:200px;
+    width:200px;
+    margin:10px auto;
+}
+
+.img{
+    height:100%;
+    width:100%;
+    border-radius:50%;
+    border:4px solid #ffffff;
+}
+
+.heading{
+    text-align: center;
+    font-size: 16px;
+}
+
+.education-container{
+    margin:10px 10px;
+    border-top: 2px solid #ffffff;
+}
+
+.edu-details{
+    padding: 5px 0;
+}
+
+.edu-details > h6{
+    margin:2px 0;
+    font-size:16px;
+}
+
+.edu-details > p{
+    font-size: 10px;
+    margin:3px 0;
+}
+
+.section-overview{
+    display:flex;
+    flex-direction: column;
+}
+
+.header{
+    text-transform: capitalize;
+    margin:0 10px;
+}
+
+.header > h1{
+    margin:2px 0;
+    font-size:32px;
+}
+
+.header p{
+    font-size: 16px;
+    margin:2px 0;
+    color: #155e91;
+    font-weight:600;
+}
+
+ul{
+    padding:0;
+    list-style:none;
+}
+
+ul > li{
+    display: inline-block;
+    background-color: #3e98d7;
+    margin:3px;
+    padding:5px;
+    border-radius:4px;
+}
+
+.Tech-stack{
+    margin:10px 10px;
+    border-top:2px solid #ffffff;
+}
+
+@media only screen and (max-width: 900px){
+    .portfolio-container{
+        margin:0;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .portfolio-container{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .aside-container{
+        width:100%;
+        min-height:30vh;
+    }
+
+    .section-container{
+        height:70vh;
+        width:100%;
+    }
+}
