@@ -18,23 +18,33 @@ body,html{
     background-attachment:fixed;
 }
 .pimg1{
-    background-image:url("image1.jpg");
+    background-image:url("room1.jpg");
     min-height:100%;
 }
 
 .pimg2{
-    background-image:url("image3.jpg");
+    background-image:url("room2.jpg");
     min-height: 400px;
 }
 
 .pimg3{
-    background-image:url("image2.jpg");
+    background-image:url("room3.jpg");
     min-height:400px;
 }
 
 .section{
     text-align:center;
     padding:50px 80px;
+}
+
+.section > h2{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.section-dark > h2{
+    text-transform: capitalize;
+    letter-spacing: 1px;    
 }
 
 .section-dark{
@@ -63,7 +73,11 @@ body,html{
     color:#ddd;
 }
 
-.para-text .trans{
-    background-color: transparent;
+.border > a{
+    text-decoration:none;
+    color:#666;
 }
 
+.border > a:hover{
+    color:#fff;
+}
