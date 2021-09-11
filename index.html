@@ -6,19 +6,31 @@
         <meta http-equiv="X-UA-Compatible" content ="ie=edge" >
         <title>parallax web site</title>
         <link href = "parallax.css" rel =  "stylesheet" />
-        <!-- <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"> -->
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     </head>
 
     <body>
-            <!-- <div class = "pimg1"></div> -->
-        <div class = "pimg1">
+
+        <section class = "header-container">
+            <nav class = "nav-container" id = "top-header">
+                <div class = "logo"><i class = "fas fa-hotel"> Hotel</i></div>
+                <div class = "headings-section">
+                    <a href = "#top-header" target = "_self"><h5 class="headers">header</h5></a>
+                    <a href = "#content" target = "_self"><h5 class="headers">content</h5></a>
+                    <a href = "#footer" target = "_self"><h5 class="headers">footer</h5></a>
+                    <a href = "#" target = "_blank"><h5 class="headers">buy now</h5></a>
+                </div>
+            </nav>
+          </section>
+          <div class = "pimg1"></div>
+        <div class = "pimg1" id = "content">
             <div class = "para-text">
                 <span class = "border"><a href = "#" target = "_blank">book now</a></span>
             </div>
         </div>
 
-        <section class = "section section-light">
+        <section class = "section section-dark">
             <h2>Room Details</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor veritatis deserunt vel reprehenderit eaque iure, ipsum nihil beatae tenetur ducimus sed ipsam tempora ipsa adipisci rem in nostrum, mollitia incidunt cum corporis consectetur quos. Temporibus animi quam mollitia possimus, officia est obcaecati corporis in consequatur accusamus harum molestias! Iusto molestiae rem doloremque minima delectus consequuntur aperiam quasi quos nihil molestias nulla beatae sapiente reiciendis consectetur, voluptatibus perspiciatis ratione nemo cum nisi error obcaecati excepturi maxime, ullam enim! Voluptatibus provident itaque mollitia animi tempora, corrupti minima aut. Ipsam quidem ratione dolor, sunt rerum voluptates quaerat fugiat obcaecati deserunt, suscipit labore? Quis!</p>
         </section>
@@ -31,7 +43,7 @@
 
 
         <section class = "section section-dark">
-            <h2>Section Two</h2>
+            <h2>Room Details</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor veritatis deserunt vel reprehenderit eaque iure, ipsum nihil beatae tenetur ducimus sed ipsam tempora ipsa adipisci rem in nostrum, mollitia incidunt cum corporis consectetur quos. Temporibus animi quam mollitia possimus, officia est obcaecati corporis in consequatur accusamus harum molestias! Iusto molestiae rem doloremque minima delectus consequuntur aperiam quasi quos nihil molestias nulla beatae sapiente reiciendis consectetur, voluptatibus perspiciatis ratione nemo cum nisi error obcaecati excepturi maxime, ullam enim! Voluptatibus provident itaque mollitia animi tempora, corrupti minima aut. Ipsam quidem ratione dolor, sunt rerum voluptates quaerat fugiat obcaecati deserunt, suscipit labore? Quis!</p>
         </section>
 
@@ -42,7 +54,7 @@
         </div>
 
         <section class = "section section-dark">
-            <h2>Section Three</h2>
+            <h2>Room Details</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor veritatis deserunt vel reprehenderit eaque iure, ipsum nihil beatae tenetur ducimus sed ipsam tempora ipsa adipisci rem in nostrum, mollitia incidunt cum corporis consectetur quos. Temporibus animi quam mollitia possimus, officia est obcaecati corporis in consequatur accusamus harum molestias! Iusto molestiae rem doloremque minima delectus consequuntur aperiam quasi quos nihil molestias nulla beatae sapiente reiciendis consectetur, voluptatibus perspiciatis ratione nemo cum nisi error obcaecati excepturi maxime, ullam enim! Voluptatibus provident itaque mollitia animi tempora, corrupti minima aut. Ipsam quidem ratione dolor, sunt rerum voluptates quaerat fugiat obcaecati deserunt, suscipit labore? Quis!</p>
         </section>
 
@@ -52,7 +64,7 @@
             </div>
         </div>
 
-        <section class = "footer-container">
+        <section class = "footer-container" id = "footer">
             <div class = "contact-action">
                 <a href = "https://www.twitter.com" target = "_blank" class = "iconic-buttons"><i class="fab fa-twitter"></i></a>
                 <a href = "https://www.facebook.com" target = "_blank" class = "iconic-buttons"><i class="fab fa-facebook-f"></i></a>
@@ -63,8 +75,12 @@
             </div>
             <div class = "copy-right-text">
                 <div class = "copy-right-icon"><i class = "far fa-copyright"></i></div>
-                <p>copywright 2021 mobirise - all rights reserved</p>
+                    <p>copywright 2021 mobirise - all rights reserved</p>
             </div>
         </section>
+
+        <div class = "up-arrow">
+            <a href = "#top-header" target = "_self" class = "iconic-buttons"><i class="fa fa-arrow-up up-arrow"></i></a>
+        </div>
     </body>
 </html>
