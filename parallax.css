@@ -66,9 +66,10 @@ body,html{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #333333;
+    background-color:#111;
     color:#bbb;
 }
+
 
 .headings-section{
     display:flex;
